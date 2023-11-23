@@ -1,0 +1,44 @@
+/* src/index.css */
+
+body {
+  background-image: url('assets/png-clipart-pet-sitting-computer-icons-dog-power-symbol-texas-dog-animals-pet\ \(1\).png');
+  font-family: 'Arial', sans-serif;
+  margin: 100
+;
+  padding: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgb(16, 171, 210), rgb(121, 217, 36));
+}
+
+div {
+  background: linear-gradient(rgb(77, 238, 68),rgb(16, 100, 125));
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
